@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+     justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.left_form {
+    width: 300px;
+}
+
+.right_form {
+    margin-top: 40px;
+    width: 200px;
+}
+
+input {
+    border-radius: 4px;
+    background-color:#e5eddf;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+label {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+select {
+    margin-bottom: 10px;
+    background-color:#e5eddf;
+}
+
+button {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    color: #FFFFFF;
+    background-color: rgb(4, 155, 29);
+}
