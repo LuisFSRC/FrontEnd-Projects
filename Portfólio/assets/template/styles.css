@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.cabecalho .logo {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu_line {
+    height: 3px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container .left_side {
+    flex: 1;
+    background-color: #3b576d;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.container .right_side{
+    flex: 1;
+    background-image: url('../images/hero.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+
+.info .profission {
+    font-size: 20px;
+}
+
+.info .name {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons .hire_me:hover {
+    opacity: 0.7;
+}
+
+.buttons .about_me:hover {
+    opacity: 0.7;
+}
+
+.buttons a {
+    display: block;
+    margin-right: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 15px;
+}
+
+.buttons .about_me {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px #111111;
+}
+
+.buttons .hire_me {
+    background-color: #3b576d;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px #111111;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 850px) {
+    .cabecalho {
+        position: initial;
+        background-color: #3b576d;
+    }
+
+    .cabecalho .menu_line {
+        background-color: #FFFFFF;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .left_side {
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container .right_side{
+        flex: 1;
+        background-image: url('../images/hero.jpg');
+        background-position: top;
+        background-size: cover;
+    }
+
+    .left_side .buttons {
+        text-align: center;
+    }
+    
+    .footer {
+        color: #333333;
+    }
+}
+
+@media (max-width:450px) {
+    .container .left_side .info .name {
+        font-size: 50px;
+    }
+
+    .container .left_side .info .buttons {
+        display: block;
+        margin-right: 0;
+    }
+    .buttons .about_me,
+    .buttons .hire_me {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        color: #FFFFFF;
+    }
+
+}

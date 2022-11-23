@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="template/styles.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none'
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+
+    </script>
+    <title>MediCenter</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""> <img src="imagens/logo.png" alt="LogoMediCenter"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Departments</a></li>
+                        <li><a href="">TimeTable</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Case</div>
+                    <div class="banner_desc">If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+                    <a href="">Read more →</a>
+                </div>
+
+                <div class="banner2">
+                    <div class="banner_title">Doctors TimeTable</div>
+                    <div class="banner_desc">Here at medicenter we have individual doctor's lists. Click read more below to see services and current timetable for our doctors.</div>
+                    <a href="">Read more →</a>
+                </div>
+
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+                    
+                    <div class="banner_days">Monday - Friday
+                        <div class="days_hours">8.00 - 17.00</div>
+                    </div>
+
+                    <div class="banner_days">Saturday
+                        <div class="days_hours">9.30 - 17.30</div>
+                    </div>
+
+                    <div class="banner_days">Sunday
+                        <div class="days_hours">9.30 - 15.00</div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">Latest News</div>
+                    <div class="widget_title_text"></div>
+                    <div class="widget_title_bar"></div>
+                    <div class="widget_body flex">
+                        
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comment">2</div>
+                        </div>
+
+                        <div class="thumbnail">
+                            <img src="imagens/dr.jpg" alt="Doctor">
+                        </div>
+
+                        <div class="news_title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+
+                        <div class="news_resume">Lorem impsum dolor sit amet, consectetur adipscing elit. Ut volutpat retrum eros sit amet solicitudin. Suspendisse pulvinar, velit nec pharetra interdum, ante tellus ornare mi, et mollis tellus neque vitae elit. Mauris adipiscing mauris. </div>
+                        </a>
+                        <div class="posted">
+                            Posted in
+                            <a href="">General</a>
+                            <a href="">Dental clinic</a>
+                        </div>
+                        </article>
+                        
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comment">2</div>
+                        </div>
+
+                        <div class="thumbnail">
+                            <img src="imagens/dr.jpg" alt="Doctor">
+                        </div>
+
+                        <div class="news_title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+
+                        <div class="news_resume">Lorem impsum dolor sit amet, consectetur adipscing elit. Ut volutpat retrum eros sit amet solicitudin. Suspendisse pulvinar, velit nec pharetra interdum, ante tellus ornare mi, et mollis tellus neque vitae elit. Mauris adipiscing mauris. </div>
+                        </a>
+                        <div class="posted">
+                            Posted in
+                            <a href="">General</a>
+                            <a href="">Dental clinic</a>
+                        </div>   
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comment">2</div>
+                        </div>
+
+                        <div class="thumbnail">
+                            <img src="imagens/dr.jpg" alt="Doctor">
+                        </div>
+
+                        <div class="news_title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+
+                        <div class="news_resume">Lorem impsum dolor sit amet, consectetur adipscing elit. Ut volutpat retrum eros sit amet solicitudin. Suspendisse pulvinar, velit nec pharetra interdum, ante tellus ornare mi, et mollis tellus neque vitae elit. Mauris adipiscing mauris. </div>
+                        </a>
+                        <div class="posted">
+                            Posted in
+                            <a href="">General</a>
+                            <a href="">Outpatient surgery</a>
+                        </div>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 DEC 12</div>
+                                <div class="news_comment">2</div>
+                        </div>
+
+                        <div class="thumbnail">
+                            <img src="imagens/dr.jpg" alt="Doctor">
+                        </div>
+
+                        <div class="news_title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+
+                        <div class="news_resume">Lorem impsum dolor sit amet, consectetur adipscing elit. Ut volutpat retrum eros sit amet solicitudin. Suspendisse pulvinar, velit nec pharetra interdum, ante tellus ornare mi, et mollis tellus neque vitae elit. Mauris adipiscing mauris. </div>
+                        </a>
+                        <div class="posted">
+                            Posted in
+                            <a href="">General</a>
+                            <a href="">Outpatient surgery</a>
+                        </div>
+                        <a class="show_all" href="">Show all →</a>
+                        </article>
+                    </div>
+                </div>
+            
+            </section>
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">Departments</div>
+                    <div class="widget_title_text"></div>
+                    <div class="widget_title_bar"></div>
+                    <div class="departments_title">Primary Health Care
+                        <div class="departments_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        Mauris adisciping fringila turpis intend tellus ornare etos pelim. Pulvunar est cardio neque vitae elit. Lorem, vulputat paentra nunc gravida.
+                    </div>
+                    <div class="widget_body_buttom">
+                        <a href="">Details →</a>
+                        <a href="">Timetable →</a>
+                    </div>
+
+                    <div class="widget_body_summary">
+                        Pediatric Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Outpacient Surgery
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Gynaecological Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Cardiac Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Laryngological Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Ophtalmology Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Dental Clinic
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                    <div class="widget_body_summary">
+                        Outpacient Rehabilitation
+                        <a href=""> + </a>
+                    </div>
+                    <div class="widget_body_sumary_bar"></div>
+
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">Make an Appointment</div>
+                    <div class="widget_title_text"></div>
+                    <div class="widget_title_bar"></div>
+                    <div class="widget_body">
+                        Lorem impsum dolor sit amet, consectetur adispiscing elit.Ut volutpat retrum eros sit amet sollicitudin.
+                        <div style="margin-top: 35px;" class="widget_body_sumary_bar"></div>
+                        <div class="widget_img_icon">
+                            <img src="imagens/icone_telefone.png" alt="icone_telefone">
+                               <strong>by phone 1-800-643-4300</strong>
+                        </div>
+                        <div class="widget_body_sumary_bar"></div>
+                        <div class="widget_img_icon">
+                            <img src="imagens/icone_email.png" alt="icone_email">
+                            by email: <a href="">medicenter@mail.com</a>
+                        </div>
+                        <div class="widget_body_sumary_bar"></div>
+                        <div class="widget_img_icon">
+                            <img class="icone_form" src="imagens/icone_formulario.jpg" alt="icone_formulario">or <a href="">fill in the form</a> on our contact page
+                        </div>
+                        <div class="widget_body_sumary_bar"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer id="rodape">
+        <div class="container flexcolumn">
+            <div class="footer_menu">
+                <div class="footer_banner1">
+                    <a href="">
+                    <div class="footer_title1">Health Insurance
+                        <div class="footer_title_desc">Here in medicenter we have individual →</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="">
+                <div class="footer_banner2">
+                    <div class="footer_title2">Medical Records
+                        <div class="footer_title_desc">Here in medicenter we have individual →</div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="">
+                <div class="footer_banner3">
+                    <div class="footer_title3">Online Bill Pay
+                        <div class="footer_title_desc">Here in medicenter we have individual →</div>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_area_item">
+                <div class="widget_title">Medicenter Clinic</div>
+                <div class="widget_title_text"></div>
+                <div class="widget_title_bar"></div>
+                <div class="widget_body_desc_medicenter">Mauris adiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                <div class="address_area">
+                    <div class="address">Medicenter Clinic<br/>
+                        33 Farlane Street<br/>
+                        Keilor East<br/>
+                        VIC 3033, Australia
+                    </div>
+                    <div class="contact">
+                        <div class="phone1">+123 655 655</div>
+                        <div class="phone2">+123 755 755</div>
+                        <div class="email">medicenter@mail.com</div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="footer_area_item">
+                    <div class="footer_area_item">
+
+                        <div class="widget_title">Latest Posts
+
+                            <div class="arrow_area">
+                                <div class="arrow_left">←</div>
+                            <div class="arrow_right">→</div>
+                            </div>
+                        </div>
+                        <div class="widget_title_text"></div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p>Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.</p>
+                        </div>
+                        <div class="footer_data_post">9 months ago</div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p>Lorem ipsum dolor sit amat velum</p>
+                        </div>
+                        <div class="footer_data_post">10 months ago</div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p>Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.</p>
+                        </div>
+                        <div class="footer_data_post">about a year ago</div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="footer_area_item">
+                        <div class="widget_title">Latest Tweets
+                            <div class="arrow_area">
+                                <div class="arrow_left">←</div>
+                            <div class="arrow_right">→</div>
+                            </div>
+                        </div>
+                        <div class="widget_title_text"></div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p style="color:#5c5c5c;">@chabodmathieu Ok, good! I'm glad to hear that! Have a nice day!</p>
+                        </div>
+                        <div class="footer_data_post">11 days ago</div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p style="color:#5c5c5c;">@chabodmathieu Support for all our items is conducted through our Support Forum - <a href=>"http://t.co/1lntTxsJ"</a> Please use the forum to get help. Thx
+                        </div>
+                        <div class="footer_data_post">11 days ago</div>
+                        <div class="widget_body_desc">
+                            <div class="arrow_content">→</div>
+                            <p style="color:#5c5c5c;">A huge thanks to all who support our work and to all of our buyers. Our Gym WordPress Theme - <a href="">http://t.co/szgTwgVU</a> just reached 1000 sales!</p>
+                        </div>
+                        <div class="footer_data_post">22 days ago</div>
+                    </div>
+                </div>
+                </div>
+                <div class="footer_copy">
+                    Copyright - Todos os direitos reservados.
+                </div>    
+        </div>
+    </footer>
+</body>
+</html>
