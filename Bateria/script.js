@@ -2,12 +2,17 @@ document.body.addEventListener('keyup', (event) => {
     playSound(event.code.toLowerCase());
 });
 
+document.body.addEventListener('touchstart', (event) => {
+    playSound(event.code.toLowerCase());
+});
+
 document.querySelector('button').addEventListener('click', () => {
     let song = document.querySelector('#input').value;
     if (song !== '') {
         let songArray = song.split('')
         songComposition(songArray);
     }
+    console.log(song);
 });
 
 function playSound(sound) {
@@ -30,7 +35,7 @@ function songComposition(songArray) {
     let wait = 0;
     for (let song of songArray) {
         setTimeout(() => {
-            playSound(`key${song}`)
+            playSound(`key${song.toLowerCase()}`)
         }, wait)
         wait += 250
     }
